@@ -62,7 +62,7 @@ The API returns a summary of the operation.
 **Console Output (Server-side):**
 Upon success, the age distribution report is printed directly to the server console.
 
-```
+
 Processing CSV file: sample_data.csv
 Processed batch: 25 records
 ==================================================
@@ -76,8 +76,8 @@ Age-Group		% Distribution
 ----------------------------------------
 Total Users: 25
 ==================================================
-```
 
+```
 -----
 
 ### 2\. Get Error Log
