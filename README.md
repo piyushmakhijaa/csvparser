@@ -33,6 +33,11 @@ This section explains the *why* behind the project's design.
       * **Problem:** Standard CSV parsers don't support the required nested dot notation (e.g., `name.firstName`).
       * **Solution:** A lightweight, zero-dependency custom parser (`parser.js`) was built to handle this specific business logic, including complex cases like quoted commas and escaped quotes (`""`).
 
+## MINOR CHANGE
+While in the assignment, it was mentioned that "You need to take a csv file from a configurable location(define an env config) in a node
+application (ExpressJs or NestJs)", I took the file from the request from the user (it would be easier to integrate frontend, as the user would upload the file from the frontend).
+
+
 ## API Endpoints
 
 ### 1\. Process CSV File (Full Refresh)
